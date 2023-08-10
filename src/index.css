@@ -1,0 +1,243 @@
+body{
+  background: #f1f2f6;
+}
+
+.count{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;  
+}
+
+
+label{
+  margin: 10px;
+  font-size: 30px;
+}
+
+.cards{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  justify-content: center;
+}
+
+img{
+  height: 120px;
+  width: auto;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+.form{
+  width: 1230px;
+    margin-left: auto;
+    margin-right:auto ;
+}
+
+.inputNumber{
+  text-align: center;
+  border-radius: 3px;
+  border-color: #333;
+  font-size: 14px;
+}
+
+.cardControl{
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  justify-content: center;
+  grid-gap: 10px 10px;
+  margin-top: 25px;
+}
+
+.card{
+  background-color: #fff;
+  margin: 10px;
+  padding: 30px 20px;
+  border-radius: 10px;
+}
+
+.green{
+  background-color: greenyellow;
+  color: white;
+  width: 80px;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.red{
+  background: #f1f2f6;
+  color: #333;
+  width: 80px;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+.money-container {
+  position: fixed;
+  display: block;
+  text-align: center;
+  top: 0;
+  left: 0; /* Sol kenardan başlamasını sağlar */
+  width: 100%; /* Tüm genişliği kaplar */
+  padding: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  z-index: 1000;
+  border-bottom: 0.5px solid #bebebe;
+}
+
+
+.null{
+  background-color: #f1f2f6;
+  color: #333;
+  width: 80px;
+  height: 50px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  cursor: default;
+}
+
+/* Tablet İçin */
+@media (max-width: 890px) {
+  .cards {
+    grid-template-columns: auto auto; /* 2 sütun */
+  }
+  .receipt{
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  .total{
+    padding-bottom: 50px;
+  }
+}
+
+/* Mobil İçin */
+@media (max-width: 650px) {
+  .cards {
+    grid-template-columns: auto; /* 1 sütun */
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .receipt{
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+  }
+  .total{
+    padding-bottom: 50px;
+  }
+  img {
+    height: 120px; /* Resim boyutunu küçült */
+  }
+  .green, .red, .null {
+    width: 100px;
+    height: 60px; /* Düğme boyutlarını küçült */
+  }
+}
+
+.summary{
+  max-width: 290px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    display: grid;
+    grid-gap: 10px 0;
+    font-size: 18px;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+li{
+  list-style: none;
+}
+
+.first{
+  text-align: left;
+  text-overflow: ellipsis;
+}
+.middle{
+  text-align: left;
+}
+
+.last{
+  color: #24c486;
+  text-align: right;
+}
+
+.summarydiv{
+  width: 500px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.summarybottom{
+  border-bottom: 0.5px solid #000000;
+  margin-bottom: 25px;
+}
+
+.total{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  justify-content:space-evenly;
+}
+
+.box{
+  background-color: #fff;
+  text-align: center;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.info{
+  position: absolute;
+  bottom: -40px;
+  right: 70px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.receipt{
+  position: relative;
+}
+
+.infoli{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+}
+
+.titleBill{
+  margin-top: 80px;
+  width: 100%;
+  background-color: #fff;
+  padding-top:50px;
+  padding-bottom: 40px;
+  border-radius: 12px;
+}
+
+.billGates{
+    display: block;
+    width: 125px;
+    height: 125px;
+    margin: 10px auto 25px;
+    border-radius: 125px;
+}
+
+.name{
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.2em;
+}
