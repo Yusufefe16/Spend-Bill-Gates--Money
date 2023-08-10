@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react6/static/css/main.c11c38ca.css",
-    "main.js": "/react6/static/js/main.24b9cafe.js",
-    "static/js/787.7314c409.chunk.js": "/react6/static/js/787.7314c409.chunk.js",
-    "index.html": "/react6/index.html",
-    "main.c11c38ca.css.map": "/react6/static/css/main.c11c38ca.css.map",
-    "main.24b9cafe.js.map": "/react6/static/js/main.24b9cafe.js.map",
-    "787.7314c409.chunk.js.map": "/react6/static/js/787.7314c409.chunk.js.map"
+    "main.css": "/Spend-Bill-Gates--Money/static/css/main.c11c38ca.css",
+    "main.js": "/Spend-Bill-Gates--Money/static/js/main.90349694.js",
+    "static/js/787.7314c409.chunk.js": "/Spend-Bill-Gates--Money/static/js/787.7314c409.chunk.js",
+    "index.html": "/Spend-Bill-Gates--Money/index.html",
+    "main.c11c38ca.css.map": "/Spend-Bill-Gates--Money/static/css/main.c11c38ca.css.map",
+    "main.90349694.js.map": "/Spend-Bill-Gates--Money/static/js/main.90349694.js.map",
+    "787.7314c409.chunk.js.map": "/Spend-Bill-Gates--Money/static/js/787.7314c409.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c11c38ca.css",
-    "static/js/main.24b9cafe.js"
+    "static/js/main.90349694.js"
   ]
 }
